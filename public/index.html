@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excellent Bank</title>
+    <script src="https://kit.fontawesome.com/514ff62e5d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-sans subpixel-antialiased text-gray-800">
+    <header class="pt-6 px-4 sm:px-8 md:px-16">
+        <nav class="flex justify-between items-center">
+            <div class="flex items-center">
+                <img class="inline w-10" src="../img/logo.jpg" alt="logo">
+                <span class="text-primary text-4xl font-semibold">Excellent</span>
+            </div>
+            <div class="lg:hidden block">
+                <div class="w-8 h-1 bg-primary"></div>
+                <div class="w-8 h-1 mt-1 bg-primary"></div>
+                <div class="w-8 h-1 mt-1 bg-primary"></div>
+            </div>
+            <div class="navigation font-bold lg:flex gap-12 hidden">
+                <div>
+                    <label for="personal">Personal</label>
+                    <select name="personal" id="personal"></select>
+                </div>
+
+                <div>
+                    <label for="company">Company</label>
+                    <select name="company" id="company"></select>
+                </div>
+
+                <div>
+                    <label for="get-help">Get help</label>
+                    <select name="get-help" id="get-help"></select>
+                </div>
+            </div>
+            <div class="lg:flex gap-9 text-sm hidden">
+                <button>Login</button>
+                <button class="bg-primary rounded-full px-2 py-1 text-gray-200">Create Account</button>
+            </div>
+        </nav>
+
+        <head>
+            <div class="flex md:flex-row flex-col justify-between items-center md:py-10 py-16">
+                <div class="max-w-xl">
+                    <h1 class="text-5xl font-semibold ">Get started with the <span class="text-primary">Excellent</span>
+                        way to bank</h1>
+                    <p class="mt-4 max-w-md">Enjoy a wide range of banking services and best financial solution that
+                        suit your every day need
+                    </p>
+                    <button class="bg-primary rounded-full px-2 py-1 text-gray-200 mt-4">Get Excellent</button>
+                </div>
+
+                <div>
+                    <img src="../img/customer.jpg" alt="customer-img">
+                </div>
+            </div>
+        </head>
+    </header>
+
+    <main>
+        <section class="bg-primary px-4 sm:px-8 md:px-16 py-24 text-gray-100">
+            <div class="grid gap-y-14 lg:grid-cols-2 lg:grid-rows-2 justify-center md:justify-stretch text-center md:text-start">
+                <div class="h-max">
+                    <h2 class="text-5xl font-semibold max-w-sm">Benefit of using Excellent bank</h2>
+                    <p class="max-w-xs text-sm mt-6">Here are various way on how to bank with Excellent Bank App</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 md:grid-rows-2 justify-center md:justify-stretch md:row-span-2 md:gap-y-2 gap-y-6 gap-x-10 lg:justify-self-end">
+                    <div class="w-56">
+                        <span class="flex justify-center md:block"><img class="w-10" src="../img/icon2.jpg" alt=""></span>
+                        <h3 class="text-2xl font-semibold mt-3">Secure transaction</h3>
+                        <p class="mt-3 text-sm">Quick and easy way to keep track of your transaction</p>
+                    </div>
+                    <div class="w-56">
+                       <span class="flex justify-center md:block"><img class="w-10" src="../img/icon2.jpg" alt=""></span>
+                        <h3 class="text-2xl font-semibold mt-3">Investment report</h3>
+                        <p class="mt-3 text-sm">Quick and easy way to keep track of your transaction</p>
+                    </div>
+                    <div class="w-56">
+                       <span class="flex justify-center md:block"><img class="w-10" src="../img/icon2.jpg" alt=""></span>
+                        <h3 class="text-2xl font-semibold mt-3">Customer centric</h3>
+                        <p class="mt-3 text-sm">Quick and easy way to keep track of your transaction</p>
+                    </div>
+                    <div class="w-56">
+                       <span class="flex justify-center md:block"><img class="w-10" src="../img/icon2.jpg" alt=""></span>
+                        <h3 class="text-2xl font-semibold mt-3">Track transaction</h3>
+                        <p class="mt-3 text-sm">Quick and easy way to keep track of your transaction</p>
+                    </div>
+                </div>
+
+                <div class="self-end flex gap-2 items-center">
+                    <span>
+                        <img src="../img/customers_clipdrop-background-removal.png" alt="customers" class="inline">
+                    </span>
+                    <span>
+                        <p class="font-medium">1000 users worldwide</p>
+                        <p class="text-sm">4.9 rating in both app and playstore</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="px-4 sm:px-8 md:px-16 py-10">
+            <div class="text-center">
+                <h2 class="text-5xl font-semibold">Our products</h2>
+                <p class="text-xs mt-4">We offers some wide varieties of products</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-3 gap-6 mt-14 justify-center text-center md:text-start">
+                <div class="max-w-sm">
+                    <span class="flex justify-center md:block"><img class="w-10" src="../img/icon1.jpg" alt=""></span>
+                    <h3 class="text-2xl font-semibold mt-3">General savings</h3>
+                    <p class="mt-4 text-sm">The Micro Pension Plan (MPP) is a savings plan created for workers or
+                        self-employed persons to
+                        make financial
+                        contributions towards the provision of pension at their retirement or incapacitatio</p>
+                </div>
+                <div class="max-w-sm">
+                    <span class="flex justify-center md:block"><img class="w-10" src="../img/icon1.jpg" alt=""></span>
+                    <h3 class="text-2xl font-semibold mt-3">Schoolers account</h3>
+                    <p class="mt-4 text-sm">Looking for a simple and hassle-free banking experience? Our general account
+                        is here to help. Whether you're looking to
+                        manage your day-to-day finances or save for a rainy day+</p>
+                </div>
+                <div class="max-w-sm">
+                    <span class="flex justify-center md:block"><img class="w-10" src="../img/icon1.jpg" alt=""></span>
+                    <h3 class="text-2xl font-semibold mt-3">Target savings</h3>
+                    <p class="mt-4 text-sm">Stop Dreaming, Start Saving - Why Target Savings Can Help You Reach Your
+                        Goals!Have a dream you've been putting off
+                        because it just seems too expensive?</p>
+                </div>
+
+                <div class="max-w-sm">
+                    <span class="flex justify-center md:block"><img class="w-10" src="../img/icon1.jpg" alt=""></span>
+                    <h3 class="text-2xl font-semibold mt-3">Micro pension</h3>
+                    <p class="mt-4 text-sm">The Micro Pension Plan (MPP) is a savings plan created for workers or
+                        self-employed persons to make financial
+                        contributions towards the provision of pension at their retirement or incapacitation</p>
+                </div>
+                <div class="max-w-sm">
+                    <span class="flex justify-center md:block"><img class="w-10" src="../img/icon1.jpg" alt=""></span>
+                    <h3 class="text-2xl font-semibold mt-3">Kids account</h3>
+                    <p class="mt-4 text-sm">Teach Your Kids the Value of Money with Our Awesome Smart Kids Account!Want
+                        to teach your kids about the value of money
+                        and how to save for their dreams?</p>
+                </div>
+                <div class="max-w-sm">
+                    <span class="flex justify-center md:block"><img class="w-10" src="../img/icon1.jpg" alt=""></span>
+                    <h3 class="text-2xl font-semibold mt-3">General Investment</h3>
+                    <p class="mt-4 text-sm">Is 25% wow enough? Ready to turn up the volume on your investments? Our
+                        investment services are here to help you make
+                        your money dance! We believe that investing should be fun</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-primary px-4 sm:px-8 md:px-16 pt-32 flex md:flex-row flex-col gap-y-8 md:justify-between">
+            <div class="text-white max-w-lg">
+                <h2 class="text-5xl font-semibold">Come on board with Excellent Today</h2>
+                <p class="mt-4 text-sm">Save, spend, send and invest money with ease.</p>
+                <div class="mt-4 text-sm font-semibold  text-primary ">
+                    <button class="bg-white rounded-full px-2 py-1">Google play</button>
+                    <button class="bg-white rounded-full px-2 py-1">Apple play</button>
+                </div>
+            </div>
+
+            <div class="md:mr-16 m-0 self-center">
+                <img src="../img/phone_clipdrop-background-removal.png" alt="phone">
+            </div>
+        </section>
+        <section class="flex gap-y-8 flex-col lg:flex-row justify-between py-10 lg:pt-28 lg:py-10 px-4 sm:px-8 md:px-16">
+            <div class="self-center">
+                <img src="../img/card.png" alt="card">
+            </div>
+
+            <div>
+                <p class="text-sm">Excellent Card</p>
+                <h2 class="text-5xl font-semibold max-w-lg mt-4">Enjoy endless possibilities with your <span
+                        class="text-primary">Excellent card.</span></h2>
+                <p class="text-sm max-w-xl mt-4">Have all your needs covered without our wide range of credit and debit
+                    cards that allows you complete
+                    every transactions
+                    with ease at all the time.
+                </p>
+
+                <div class="grid sm:grid-cols-2 sm:grid-rows-2 gap-y-4 mt-4">
+                    <div class="flex gap-3">
+                        <span><img class="w-10" src="../img/icon3.jpg" alt=""></span>
+                        <p class="text-sm w-36">Zero card maintenace fee with Excellent</p>
+                    </div>
+                    <div class="flex gap-3">
+                        <span><img class="w-10" src="../img/icon3.jpg" alt=""></span>
+                        <p class="text-sm w-36">Withdraw cash at any ATM for free</p>
+                    </div>
+                    <div class="flex gap-3">
+                        <span><img class="w-10" src="../img/icon3.jpg" alt=""></span>
+                        <p class="text-sm w-36">Track your card to your doorstep</p>
+                    </div>
+                    <div class="flex gap-3">
+                        <span><img class="w-10" src="../img/icon3.jpg" alt=""></span>
+                        <p class="text-sm w-36">Modify your card at will</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="px-4 sm:px-8 md:px-16 py-16 bg-primary text-white">
+            <div class="flex flex-col sm:flex-row gap-y-6 justify-between">
+                <div>
+                    <h2 class="text-5xl font-semibold max-w-lg mt-4">Testimonials</h2>
+                    <p class="text-sm">See what our customers says</p>
+                </div>
+
+                <div>
+                    <button class="bg-white text-primary h-8 w-8 rounded-full "><i
+                            class="fa-solid fa-arrow-left"></i></button>
+                    <button class="bg-white text-primary h-8 w-8 rounded-full"><i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div class="flex gap-4 md:mt-16 mt-8 text-black">
+                <div class="bg-white rounded-lg overflow-hidden p-4">
+                    <div class="flex gap-3 mb-3 items-center">
+                        <img src="../img/test-img-1.jpg" alt="user-image">
+
+                        <div>
+                            <h4 class="text-lg font-semibold">Ahmad</h4>
+                            <p>Happy user</p>
+                        </div>
+                    </div>
+
+                    <p>Easily transfer and receiving money from anyone, anywhere with a better network and less charges
+                        for
+                        transaction.</p>
+                </div>
+
+                <div class="bg-white rounded-lg overflow-hidden p-4 pl-4 hidden md:block">
+                    <div class="flex gap-3 mb-3 items-center">
+                        <img src="../img/test-img-2.jpg" alt="user-image">
+
+                        <div>
+                            <h4 class="text-lg font-semibold">Ahmad</h4>
+                            <p>Happy user</p>
+                        </div>
+                    </div>
+
+                    <p>Easily transfer and receiving money from anyone, anywhere with a better network and less charges
+                        for
+                        transaction.</p>
+                </div>
+
+                <div class="bg-white rounded-lg overflow-hidden p-4 pl-4 hidden md:block">
+                    <div class="flex gap-3 mb-3 items-center">
+                        <img src="../img/test-img-3.jpg" alt="user-image">
+
+                        <div>
+                            <h4 class="text-lg font-semibold">Ahmad</h4>
+                            <p>Happy user</p>
+                        </div>
+                    </div>
+
+                    <p>Easily transfer and receiving money from anyone, anywhere with a better network and less charges
+                        for
+                        transaction.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="px-4 sm:px-8 md:px-16 py-20 grid md:grid-cols-2 gap-y-10">
+        <div class="max-w-md">
+            <div class="flex items-center">
+                <img class="inline w-10" src="../img/logo.jpg" alt="logo">
+                <span class="text-primary text-4xl font-semibold">Excellent</span>
+            </div>
+            <p class="text-sm mt-4 w-64">Easily transfer and receiving money from anyone, anywhere with a better network and less
+                charges for
+                transaction.</p>
+        </div>
+
+        <div class="flex justify-between max-w-lg">
+            <div>
+                <h4 class="text-lg font-semibold">Links</h4>
+                <div class="text-sm leading-8">
+                    <p>Home</p>
+                    <p>Categories</p>
+                    <p>Features</p>
+                    <p>Support</p>
+                    <p>FAQs</p>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold">Others</h4>
+                <div class="text-sm leading-8">
+                    <p>Shops</p>
+                    <p>Services</p>
+                    <p>Help center</p>
+                    <p>Our team</p>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold">Pages</h4>
+                <div class="text-sm leading-8">
+                    <p>Compare</p>
+                    <p>Customers</p>
+                    <p>Use case</p>
+                    <p>Our team</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-xl">
+            <button class="text-primary"><i class="fa-brands fa-facebook"></i></button>
+            <button class="text-primary"><i class="fa-brands fa-twitter"></i></button>
+            <button class="text-primary"><i class="fa-brands fa-instagram"></i></button>
+        </div>
+    </footer>
+</body>
+
+</html>
